@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuSummry"
+            android:icon="@drawable/icon_summry"
+            android:title="Summny 4 TV" />
+
+        <item
+            android:id="@+id/menuOccupacityTV"
+            android:icon="@drawable/icon_summry"
+            android:title="Occupancy By TV" />
+
+        <item
+            android:id="@+id/menuOcupacityDetile"
+            android:icon="@drawable/icon_summry"
+            android:title="Occupancy Detile" />
+
+    </group>
+
+    <!--<item android:title="comunication">
+
+        <menu>
+
+            <item android:icon="@drawable/icon_summry"
+                android:title="summry">
+            </item>
+
+        </menu>
+
+    </item>
+    -->
+
+</menu>
